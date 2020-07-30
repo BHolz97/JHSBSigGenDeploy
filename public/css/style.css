@@ -79,3 +79,32 @@ body {
     outline: none;
     border-bottom: 2px solid rgb(52, 106, 255);
 }
+
+@media only screen and (max-width: 600px){
+    #logo-img{
+        display: none;
+    }
+
+    #header{
+        font-size: 1.5em;
+        margin-top: 20%;
+    }
+
+    #main-div{
+        flex-direction: column;
+    }
+
+    #btn-submit{
+        margin: 5%;
+    }
+
+    #form-div{
+        padding-left: 0;
+        width: 80%;
+        text-align: center;
+    }
+
+    .form_field {
+        width: 100%;
+    }
+}
