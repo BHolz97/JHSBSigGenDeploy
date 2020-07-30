@@ -25,7 +25,7 @@ app.post("/signature", function(req, res){
         name: req.body.name,
         position: req.body.job1,
         cell: req.body.cell,
-        tel: "011 614 1938",
+        tel: tel,
         email: req.body.email
     });
 });
