@@ -18,14 +18,14 @@ app.post("/signature", function(req, res){
     let tel = req.body.tel;
 
     if(tel == ''){
-        tel = '+44 1786 822288';
+        tel = '011 614 1938';
     }
 
     res.render("signature", {
         name: req.body.name,
         position: req.body.job1,
         cell: req.body.cell,
-        tel: tel,
+        tel: "011 614 1938",
         email: req.body.email
     });
 });
